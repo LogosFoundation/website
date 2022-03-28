@@ -16,6 +16,7 @@
         <br />
         <section id="faq" class="space-top-short">
           <faq />
+          <EmailForm />
         </section>
       </div>
     </div>
@@ -73,6 +74,7 @@
 
 <script>
 import Benefit from '~/components/Benefit'
+import EmailForm from '~/components/EmailForm'
 import BannerWithVideo from '~/components/Banner/BannerWithVideo'
 import Features from '~/components/Features'
 import Story from '~/components/Story'
@@ -89,6 +91,7 @@ export default {
     Features,
     Story,
     Faq,
+    EmailForm,
   },
   computed: {
     isTablet() {
